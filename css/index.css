@@ -6,3 +6,110 @@ Reset
 /*
 *
 */
+
+#app{
+  margin :0 auto;
+  background: url("../assets/images/home_agency.jpg") no-repeat;
+  background-size: cover;
+  height: 3100px;
+  color: white;
+}
+
+#app header{
+  background: url("../assets/images/lion_banner.png") no-repeat;
+  background-size: cover; 
+  height: 755px;
+  opacity: 0.5;  
+}
+
+.logo-and-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header--logo{
+  padding: 36px 0px 0px 24px; 
+}
+
+.header--logo h1{
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'arial';
+  font-weight: bold;
+  font-size: 23px;
+  padding-left: 30px;
+
+}
+
+.menu-burger svg{
+  width: 33px;
+  height: 33px;
+  padding: 32px 51px 0px 0px; 
+}
+
+
+.presentation{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  height: 500px;
+}
+
+.header--welcome{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "arial";
+  letter-spacing: 1px;
+  margin: 170px 0px 0px 290px;
+}
+
+.header--big-title{
+  width:200px;
+  line-height: 0.85;
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "arial";
+  margin: 61px 0px 0px 290px;
+}
+
+.header--descrption{
+  line-height: 1.2;
+  width:270px;
+  font-size: 12px;
+  font-family: "arial";
+  word-spacing: 3px;
+  margin: 25px 0px 0px 290px;
+}
+
+.header--down-arrow svg{
+  width: 33px;
+  height: 33px;
+  fill: white;
+  margin: 47px 0px 0px 290px;
+}
+
+.header--next{
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 1420px;
+  top:296px;
+  writing-mode: tb;
+  text-orientation: upright;
+  font-family: "arial";
+
+}
+
+.header--prev{
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 53px;
+  top:296px;
+  writing-mode: tb;
+  text-orientation: upright;
+  font-family: "arial";
+
+}
+
